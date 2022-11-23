@@ -227,7 +227,13 @@ a:active {
   width: 100px;
   height: 60px;
 }
+.fadeInLeft {
+    margin-top: 20px;
+}
 
+.fadeInDown {
+    display: flex;
+}
 .book__page {
   position: absolute;
   left: 50%;
@@ -344,10 +350,11 @@ a:active {
 
 #hero-area {
   padding:180px 0;
-  background: rgba(0, 0, 0, 0) linear-gradient(135deg, #8ec64e 0%, #41aba0 100%) repeat scroll 0 0;
-  background-image: url(../images/overlay.png);
+  background: rgba(0, 0, 0, 0) linear-gradient(135deg, #8ec64e 0%, #41aba0 100%) no-repeat scroll 0 0;
+  background-color: #100b0b;
+  background-image: url(../images/overlay.jpg);
   background-position: center;
-  max-height: 650px;
+  max-height: 700px;
   
   
 }
@@ -362,8 +369,6 @@ a:active {
     bottom: 0;
     width: 100%;
     height: 100%;
-    /* background: url(../images/overlay.png);
-    align-items: center; */
     opacity: 0.9;
 }
 #hero-area .block {
@@ -383,7 +388,7 @@ a:active {
   bottom: -12px;
   background: #fff;
   height: 3px;
-  width: 110px;
+  width: 491px;
 
 }
 
@@ -431,7 +436,11 @@ a:active {
     padding:10px;
 }
 
-
+.me {
+    padding-top: 0px !important;
+    border-bottom-width: 40px !important;
+    margin-bottom: 80px !important;
+}
 
 
 .navbar-default {
