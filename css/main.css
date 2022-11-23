@@ -68,9 +68,7 @@ a:active {
 .section {
     padding: 100px 0;
 }
-/*--
-    custom heading
---*/
+
 
 .mainMenu {
     display: flex;
@@ -199,9 +197,6 @@ a:active {
     -webkit-transform: scaleX(1);
     transform: scaleX(1);
 }
-
-
-/*Preloader*/
 
 
 #preloader {
@@ -338,10 +333,6 @@ a:active {
 }
 
 
-
-/*--
-    #hero-area start
---*/
 
 .counter {
     display: none;
